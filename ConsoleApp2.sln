@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Methods", "Methods\Methods.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringManipulation", "StringManipulation\StringManipulation.csproj", "{D2EB468A-AE87-44A2-AC38-076F5D482D9F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "List", "List\List.csproj", "{D55DE383-B070-4CAF-AD45-25EA97C6D5ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "List", "List\List.csproj", "{D55DE383-B070-4CAF-AD45-25EA97C6D5ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes nad objects OOP", "Classes nad objects OOP\Classes nad objects OOP.csproj", "{45E3E3C7-CAE0-44C8-91BA-B1BEA2A192EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Classes nad objects OOP", "Classes nad objects OOP\Classes nad objects OOP.csproj", "{45E3E3C7-CAE0-44C8-91BA-B1BEA2A192EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inharitance", "Inharitance\Inharitance.csproj", "{3303B294-D3CB-4D1D-A4BC-14148214CBD6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{45E3E3C7-CAE0-44C8-91BA-B1BEA2A192EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45E3E3C7-CAE0-44C8-91BA-B1BEA2A192EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45E3E3C7-CAE0-44C8-91BA-B1BEA2A192EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3303B294-D3CB-4D1D-A4BC-14148214CBD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3303B294-D3CB-4D1D-A4BC-14148214CBD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3303B294-D3CB-4D1D-A4BC-14148214CBD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3303B294-D3CB-4D1D-A4BC-14148214CBD6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

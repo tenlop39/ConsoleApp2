@@ -35,6 +35,10 @@ person.setTajemstvi(tajemstvi);
 //int rokNarozeni = DateTime.Now.Year - person.Age;
 person.rokNarozeni();
 
+//rok narozeni prez statickou tridu
+//StaticClass dateStaticCalss = new StaticClass(); nemuzeme tvorit instanci (objekt) ze stat. clasy
+
+
 
 Console.WriteLine();
 //Console.WriteLine($"Tvoje cele jemno je: {person.FirstName} {person.LastName}"); zruseno, vytvorena metado v pesron, ktera slucuje jm. a prijm.
@@ -50,6 +54,7 @@ else
 
 Console.WriteLine($"Tvuj vek je: {person.Age}");
 Console.WriteLine($"Rok narozeni je: {person.rokNarozeni()}");
+Console.WriteLine($"Rok narozeni prez static class: {StaticClass.rokNarozeniStatic(person.Age)}");
 Console.WriteLine($"Tvuj plat je: {person.getPlat()}");
 Console.WriteLine($"Pssst, tvoje tajemstvi bylo: {person.getTajemstvi()}");
 
