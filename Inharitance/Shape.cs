@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Inharitance
 {
-    abstract internal class Shape //nelze tvorit instance abstraktni klasy, jako static (instantiation) " Shape shape = new Shape();" nelze
+    abstract internal class Shape //nelze tvorit instance abstraktni klasy, jako u static (instantiation) " Shape shape = new Shape();" nelze
     {
         public double Height { get; set; }
         public double Length { get; set; }

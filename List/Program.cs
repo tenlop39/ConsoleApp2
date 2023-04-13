@@ -35,7 +35,7 @@ for (int i = 0; i < names.Count; i++)
 
 Console.WriteLine();
 
-Console.WriteLine("zadana jmena forech loop");
+Console.WriteLine("zadana jmena foreach loop");
 foreach (string item in names)
 {
     Console.WriteLine(item);
